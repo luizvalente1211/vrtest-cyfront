@@ -1,3 +1,4 @@
+/// <reference types="cypress" />
 import vrSite from '../../support/pages/uivalidmap'
 
 describe('Acessar site VR', ()=>{
@@ -12,6 +13,7 @@ describe('Acessar site VR', ()=>{
 
     it('CN01 - Validar que o mapa do google abriu na tela', ()=>{
         vrSite.btnfluxomap().should('be.visible')
+        
 
     })
 

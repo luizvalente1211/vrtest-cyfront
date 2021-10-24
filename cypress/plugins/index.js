@@ -11,11 +11,14 @@
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
 
+
 /**
  * @type {Cypress.PluginConfig}
  */
 // eslint-disable-next-line no-unused-vars
+const { beforeRunHook, afterRunHook } = require('cypress-mochawesome-reporter/lib');
 module.exports = (on, config) => {
+  require('cypress-mochawesome-reporter/plugin')(on);
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
 }

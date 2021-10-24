@@ -1,11 +1,13 @@
 {   
-    "reporter": "mochawesome",
-    "reporterOptions": {
-        "overwrite": false,
-        "html": true,
-        "json": false,
-        "timestemp":"mmddyyyy_HHMMss",
-        "reportDir":"./mochawesome-report"
+    
+        "reporter": "mochawesome",
+        "reporterOptions": {
+          "reportDir": "cypress/report",
+          "charts": true,
+          "reportPageTitle": "custom-title"
+        
+      
+        
        
         
       },
