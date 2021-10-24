@@ -1,0 +1,18 @@
+{   
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "overwrite": false,
+        "html": true,
+        "json": false,
+        "timestemp":"mmddyyyy_HHMMss",
+        "reportDir":"./mochawesome-report"
+       
+        
+      },
+
+    "env": {
+        "vrUi": "www.vr.com.br"
+
+    }
+
+}
